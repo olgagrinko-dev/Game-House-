@@ -4,7 +4,8 @@ import style from "./home.module.scss";
 
 function HomePage() {
     return (
-        <div className={style.wrapper}>
+        <div className={style.wrapperimg}>
+
             <Header />
             <div className={style.main}>
                 <div className={style.info}>
@@ -12,10 +13,34 @@ function HomePage() {
                     <p>Raise your ROI with direct advertiser</p>
                     <button>Become a Partner</button>
                 </div>
-                <div className={style.img}></div>
-                <div className={style.blog}></div>
+                <div className={style.mainimg}></div>
+                <div className={style.blog}>
+                    <h2>BLOG</h2>
+                    <div className={style.payment}>
+                        <p>Payment methods: Skrill,
+                            Neteller, webmoney, Bank
+                            transfer
+                            10.02.2023
+                        </p>
+                        <p>Payment methods: Skrill,
+                            Neteller, webmoney, Bank
+                            transfer
+                            10.02.2023
+                        </p>
+                        <p>Payment methods: Skrill,
+                            Neteller, webmoney, Bank
+                            transfer
+                            10.02.2023
+                        </p>
+                        <p>Payment methods: Skrill,
+                            Neteller, webmoney, Bank
+                            transfer
+                            10.02.2023
+                        </p>
+                    </div>
+                </div>
             </div>
-            <Footer/>
+            <Footer />
         </div>
     )
 }
