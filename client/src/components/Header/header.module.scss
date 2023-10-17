@@ -1,0 +1,12 @@
+.header{
+    display: flex;
+    border-radius: 64px;
+    border: 4px solid var(--main-blue-478-bf-9, #478BF9);
+    background: var(--main-navy-blue-110-a-1-d, #110A1D);
+  
+    .nav{
+     color: var(--main-clean-white-ffffff, #FFF);
+     font: 400 16px Lexend;
+     text-align: center;
+     } 
+  }
