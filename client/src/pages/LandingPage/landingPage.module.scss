@@ -1,6 +1,8 @@
 .wrapperImg {
     background-image: url(./assets/MainWrapper.svg);
     background-size: cover;
+    width: 1920px;
+    height: 1265px;
 
     .wrapper {
         display: flex;
@@ -8,77 +10,77 @@
         align-items: center;
         max-width: 1640px;
         margin: auto;
-    }
 
-    .info {
-        display: flex;
-        flex-direction: column;
-        max-width: 669px;
-        gap: 24px;
-
-        h1 {
-            font: 500 96px Lexend;
-            color: var(--main-clean-white-ffffff, #FFF);
-        }
-
-        &#titlecolor {
-            color: var(--main-blue-478-bf-9, #478BF9);
-        }
-
-        p {
-            font: 500 32px Lexend;
-            color: var(--transp-white-white-60, rgba(255, 255, 255, 0.60));
-        }
-
-        button {
-            width: 393px;
-            border-radius: 48px;
-            background: var(--main-blue-478-bf-9, #478BF9);
-            font: 600 24px Lexend;
-            color: var(--main-clean-white-ffffff, #FFF);
-            text-align: center;
-            padding: 14px;
-        }
-    }
-
-    .mainimg {
-        background-image: url(./assets/Banner.svg);
-        background-repeat: no-repeat;
-        background-size: contain;
-        width: 334px;
-        height: 1048px;
-        align-items: center;
-    }
-
-    .blog {
-        max-width: 531px;
-
-        h2 {
-            font: 600 40px Lexend;
-            color: var(--main-clean-white-ffffff, #FFF);
-            text-align: center;
-            margin-bottom: 24px;
-        }
-
-        .payment {
+        .info {
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 595px;
-            padding: 24px;
-            gap: 15px;
-            border-radius: 100px;
-            border: 3px solid var(--main-blue-478-bf-9, #478BF9);
-            background: var(--transp-white-white-12, rgba(255, 255, 255, 0.12));
-            backdrop-filter: blur(10px);
-            overflow-y: scroll;
+            max-width: 669px;
+            gap: 24px;
 
-            .item {
-                max-width: 339px;
-                padding: 16px 64px;
-                border-radius: 196px;
-                background: var(--main-deep-blue-1-e-1231, #1E1231);
+            h1 {
+                font: 500 96px Lexend;
+                color: var(--main-clean-white-ffffff, #FFF);
+            }
+
+            &.titlecolor {
+                color: var(--main-blue-478-bf-9, #478BF9);
+            }
+
+            p {
+                font: 500 32px Lexend;
+                color: var(--transp-white-white-60, rgba(255, 255, 255, 0.60));
+            }
+
+            button {
+                width: 393px;
+                border-radius: 48px;
+                background: var(--main-blue-478-bf-9, #478BF9);
+                font: 600 24px Lexend;
+                color: var(--main-clean-white-ffffff, #FFF);
+                text-align: center;
+                padding: 14px;
+            }
+        }
+
+        .mainimg {
+            background-image: url(./assets/Banner.svg);
+            background-repeat: no-repeat;
+            background-size: contain;
+            width: 334px;
+            height: 1048px;
+            align-items: center;
+        }
+
+        .blog {
+            max-width: 531px;
+
+            h2 {
+                font: 600 40px Lexend;
+                color: var(--main-clean-white-ffffff, #FFF);
+                text-align: center;
+                margin-bottom: 24px;
+            }
+
+            .payment {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 595px;
+                padding: 24px;
+                gap: 15px;
+                border-radius: 100px;
+                border: 3px solid var(--main-blue-478-bf-9, #478BF9);
+                background: var(--transp-white-white-12, rgba(255, 255, 255, 0.12));
+                backdrop-filter: blur(10px);
+                overflow-y: scroll;
+
+                .item {
+                    max-width: 339px;
+                    padding: 16px 64px;
+                    border-radius: 196px;
+                    background: var(--main-deep-blue-1-e-1231, #1E1231);
+                }
             }
         }
     }

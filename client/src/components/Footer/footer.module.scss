@@ -1,12 +1,96 @@
 .footer {
-    border-radius: 574px;
-    opacity: 0.7;
-    background: var(--main-blue-hover, linear-gradient(256deg, #478BF9 0%, #9DADF2 100%));
-    filter: blur(325px);
+    display: flex;
+    justify-content: space-between;
+    max-width: 1920px;
+    flex-shrink: 0;
+    // background: linear-gradient(180deg, #FFF 63.64%, rgba(255, 255, 255, 0.00) 95.45%);
 
-    p {
+    .nav {
+        display: flex;
+        align-items: center;
+        font: 400 16px Lexend;
         color: var(--main-clean-white-ffffff, #FFF);
         text-align: center;
-        font: 400 16px Lexend;
+        gap: 32px;
+    }
+
+    .link {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+
+        p {
+            font: 400 16px Lexend;
+            color: var(--main-clean-white-ffffff, #FFF);
+        }
+
+        .images {
+            display: flex;
+            gap: 8px;
+
+            .img1 {
+                background-image: url(./assets/img1.svg);
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 32px;
+                height: 32px;
+            }
+
+            .img2 {
+                background-image: url(./assets/img2.svg);
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 32px;
+                height: 32px;
+            }
+
+            .img3 {
+                background-image: url(./assets/img3.svg);
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 32px;
+                height: 32px;
+            }
+
+            .img4 {
+                background-image: url(./assets/img4.svg);
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 32px;
+                height: 32px;
+            }
+
+            .img5 {
+                background-image: url(./assets/img5.svg);
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 32px;
+                height: 32px;
+            }
+
+            .img6 {
+                background-image: url(./assets/img6.svg);
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 32px;
+                height: 32px;
+            }
+
+            .img7 {
+                background-image: url(./assets/img7.svg);
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 32px;
+                height: 32px;
+            }
+
+            .img8 {
+                background-image: url(./assets/img8.svg);
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 32px;
+                height: 32px;
+            }
+        }
     }
 }

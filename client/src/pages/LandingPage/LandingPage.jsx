@@ -12,7 +12,7 @@ export default function LandingPage() {
             <div className={style.wrapper}>
                 <div className={style.info}>
                     <h1>HOUSE OF</h1>
-                    <h1 id = 'titlecolor'>GAMBLING </h1>
+                    <h1 className={style.titlecolor}>GAMBLING </h1>
                     <p>Raise your ROI with direct advertiser</p>
                     <div><button>Become a Partner</button></div>
                 </div>
