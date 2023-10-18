@@ -1,15 +1,12 @@
-import MyContext from "./context/context";
-import './App.css'
+import { Route, Routes } from 'react-router-dom'
+import LandingPage from './pages/LandingPage/LandingPage'
 
 function App() {
 
   return (
-    <>
-      <MyContext.Provider value={data}>
-        {route}
-      </MyContext.Provider>
-
-    </>
+    <Routes>
+      <Route path='/' element={<LandingPage />} />
+    </Routes>
   )
 }
 
