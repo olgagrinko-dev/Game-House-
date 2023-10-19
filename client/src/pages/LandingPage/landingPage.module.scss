@@ -3,32 +3,34 @@
     background-size: cover;
     width: 1920px;
     height: 1265px;
+    margin-bottom: 4px;
 
     .wrapper {
         display: flex;
         justify-content: space-between;
         align-items: center;
         max-width: 1640px;
-        margin: auto;
+        margin: auto;        
 
         .info {
             display: flex;
             flex-direction: column;
-            max-width: 669px;
-            gap: 24px;
+            align-items: flex-start;
+            width: 669px;           
 
             h1 {
                 font: 500 96px Lexend;
-                color: var(--main-clean-white-ffffff, #FFF);
+                color: var(--main-clean-white-ffffff, #FFF);             
             }
 
             .titlecolor {
-                color: var(--main-blue-478-bf-9, #478BF9);
+                color: var(--main-blue-478-bf-9, #478BF9);               
             }
 
             p {
                 font: 500 32px Lexend;
                 color: var(--transp-white-white-60, rgba(255, 255, 255, 0.60));
+                gap: 24px;
             }
 
             button {
@@ -38,7 +40,8 @@
                 font: 600 24px Lexend;
                 color: var(--main-clean-white-ffffff, #FFF);
                 text-align: center;
-                padding: 14px;
+                padding: 20px 72px;
+                margin-top: 48px;
             }
         }
 
