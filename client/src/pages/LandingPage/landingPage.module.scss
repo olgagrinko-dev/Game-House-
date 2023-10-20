@@ -2,8 +2,9 @@
     background-image: url(./assets/MainWrapper.svg);
     background-size: cover;
     width: 1920px;
-    height: 1265px;
-    margin-bottom: 4px;
+    height: 1265px;   
+    margin: auto;
+    padding-top: 4px;
 
     .wrapper {
         display: flex;
@@ -76,7 +77,7 @@
                 border: 3px solid var(--main-blue-478-bf-9, #478BF9);
                 background: var(--transp-white-white-12, rgba(255, 255, 255, 0.12));
                 backdrop-filter: blur(10px);
-                overflow-y: scroll;
+                overflow-y: scroll ;                              
 
                 .item {
                     max-width: 339px;
