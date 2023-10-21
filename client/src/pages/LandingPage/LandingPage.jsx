@@ -6,7 +6,7 @@ export default function LandingPage() {
     const select = [{ text: 'Payment methods: Skrill,Neteller, webmoney, Banktransfer', date: '10.02.2023' }, { text: 'Payment methods: Skrill,Neteller, webmoney, Banktransfer', date: '10.02.2023' }, { text: 'Payment methods: Skrill,Neteller, webmoney, Banktransfer', date: '10.02.2023' }, { text: 'Payment methods: Skrill,Neteller, webmoney, Banktransfer', date: '10.02.2023' }, { text: 'Payment methods: Skrill,Neteller, webmoney, Banktransfer', date: '10.02.2023' }, { text: 'Payment methods: Skrill,Neteller, webmoney, Banktransfer', date: '10.02.2023' }, { text: 'Payment methods: Skrill,Neteller, webmoney, Banktransfer', date: '10.02.2023' }, { text: 'Payment methods: Skrill,Neteller, webmoney, Banktransfer', date: '10.02.2023' }, { text: 'Payment methods: Skrill,Neteller, webmoney, Banktransfer', date: '10.02.2023' }, { text: 'Payment methods: Skrill, Neteller, webmoney, Bank transfer', date: '10.02.2023' }, { text: 'ayment methods: Skrill, Neteller, webmoney, Bank transfer', date: '10.02.2023' }, { text: 'Payment methods: Skrill, Neteller, webmoney, Bank transfer', date: '10.02.2023' }]
 
     return (
-        <div className={style.wrapperImg}>
+        <div className={style.backgroundImg}>
             <Header />
 
             <div className={style.wrapper}>
