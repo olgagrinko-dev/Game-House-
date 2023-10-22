@@ -50,12 +50,20 @@
                 height: 32px;
             }
 
+            .img1:hover {
+                background-image: url(./assets/img11.png);               
+            }
+
             .img2 {
                 background-image: url(./assets/img2.svg);
                 background-repeat: no-repeat;
                 background-size: contain;
                 width: 32px;
                 height: 32px;
+            }
+
+            .img2:hover {
+                background-image: url(./assets/img22.png);
             }
 
             .img3 {
@@ -66,12 +74,20 @@
                 height: 32px;
             }
 
+            .img3:hover {
+                background-image: url(./assets/img33.png);
+            }
+
             .img4 {
                 background-image: url(./assets/img4.svg);
                 background-repeat: no-repeat;
                 background-size: contain;
                 width: 32px;
                 height: 32px;
+            }
+
+            .img4:hover {
+                background-image: url(./assets/img44.png);
             }
 
             .img5 {
@@ -82,12 +98,20 @@
                 height: 32px;
             }
 
+            .img5:hover {
+                background-image: url(./assets/img55.png);
+            }
+
             .img6 {
                 background-image: url(./assets/img6.svg);
                 background-repeat: no-repeat;
                 background-size: contain;
                 width: 32px;
                 height: 32px;
+            }
+
+            .img6:hover {
+                background-image: url(./assets/img66.png);
             }
 
             .img7 {
@@ -98,17 +122,21 @@
                 height: 32px;
             }
 
+            .img7:hover {
+                background-image: url(./assets/img77.png);
+            }
+
             .img8 {
                 background-image: url(./assets/img8.svg);
                 background-repeat: no-repeat;
                 background-size: contain;
                 width: 32px;
                 height: 32px;
+            }  
+            
+            .img8:hover {
+                background-image: url(./assets/img88.png);
             }
-
-            // img:hover {
-
-            // } 
-        }
+        }        
     }
 }
