@@ -20,7 +20,6 @@ function Footer() {
                     <div className={style.img7}></div>
                     <div className={style.img8}></div>
                 </div>
-
             </div>
         </div>
     )
