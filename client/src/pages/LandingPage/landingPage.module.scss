@@ -81,10 +81,6 @@
                 backdrop-filter: blur(10px);
                 overflow-y: auto;
 
-                .blog::-webkit-scrollbar-track {
-                    margin: 100px 0;
-                }
-
                 .item {
                     max-width: 339px;
                     padding: 16px 64px;
