@@ -21,8 +21,10 @@ export default function LandingPage() {
 
                 <div className={style.blog}>
                     <h2>BLOG</h2>
-                    <div className={style.payment}>
-                        {select.map((el, index) => <div key={index} className={style.item}><p>{el.text}</p><p>{el.date}</p></div>)}
+                    <div className={style.blogOverflow}>
+                        <div className={style.payment}>
+                            {select.map((el, index) => <div key={index} className={style.item}><p className={style.text}>{el.text}</p><p className={style.date}>{el.date}</p></div>)}
+                        </div>
                     </div>
                 </div>
             </div>

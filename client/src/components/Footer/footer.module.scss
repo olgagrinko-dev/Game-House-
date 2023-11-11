@@ -1,3 +1,16 @@
+@mixin image-block($defaultUrl, $hoverUrl) {
+    background-image: $defaultUrl;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+
+    &:hover {
+        background-image: $hoverUrl;
+    }
+}
+
 .footer {
     display: flex;
     justify-content: space-between;
@@ -43,51 +56,19 @@
             gap: 8px;
 
             .img1 {
-                background-image: url(./assets/img1.svg);
-                background-repeat: no-repeat;
-                background-size: contain;
-                width: 32px;
-                height: 32px;
-            }
-
-            .img1:hover {
-                background-image: url(./assets/img11.png);
+                @include image-block(url(./assets/img1.svg), url(./assets/img11.png));
             }
 
             .img2 {
-                background-image: url(./assets/img2.svg);
-                background-repeat: no-repeat;
-                background-size: contain;
-                width: 32px;
-                height: 32px;
-            }
-
-            .img2:hover {
-                background-image: url(./assets/img22.png);
+                @include image-block(url(./assets/img2.svg), url(./assets/img22.png));
             }
 
             .img3 {
-                background-image: url(./assets/img3.svg);
-                background-repeat: no-repeat;
-                background-size: contain;
-                width: 32px;
-                height: 32px;
-            }
-
-            .img3:hover {
-                background-image: url(./assets/img33.png);
+                @include image-block(url(./assets/img3.svg), url(./assets/img33.png));
             }
 
             .img4 {
-                background-image: url(./assets/img4.svg);
-                background-repeat: no-repeat;
-                background-size: contain;
-                width: 32px;
-                height: 32px;
-            }
-
-            .img4:hover {
-                background-image: url(./assets/img44.png);
+                @include image-block(url(./assets/img4.svg), url(./assets/img44.png));
             }
 
             .img5 {
