@@ -72,29 +72,13 @@
             }
 
             .img5 {
-                background-image: url(./assets/img5.svg);
-                background-repeat: no-repeat;
-                background-size: contain;
-                width: 32px;
-                height: 32px;
-            }
-
-            .img5:hover {
-                background-image: url(./assets/img55.png);
-            }
+                @include image-block(url(./assets/img5.svg), url(./assets/img55.png));
+            }           
 
             .img6 {
-                background-image: url(./assets/img6.svg);
-                background-repeat: no-repeat;
-                background-size: contain;
-                width: 32px;
-                height: 32px;
-            }
-
-            .img6:hover {
-                background-image: url(./assets/img66.png);
-            }
-
+                @include image-block(url(./assets/img6.svg), url(./assets/img66.png));
+            }         
+           
             .img7 {
                 background-image: url(./assets/img7.svg);
                 background-repeat: no-repeat;
