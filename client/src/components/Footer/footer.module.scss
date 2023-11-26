@@ -73,19 +73,23 @@
 
             .img5 {
                 @include image-block(url(./assets/img5.svg), url(./assets/img55.png));
-            }           
+            }
 
             .img6 {
                 @include image-block(url(./assets/img6.svg), url(./assets/img66.png));
-            }         
-           
+            }
+
             .img7 {
                 @include image-block(url(./assets/img7.svg), url(./assets/img77.png));
-            }         
+            }
 
             .img8 {
                 @include image-block(url(./assets/img8.svg), url(./assets/img88.png));
-            }       
+            }
         }
     }
 }
+
+@media screen and (max-width:300px){
+   
+} 
