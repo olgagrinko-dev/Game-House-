@@ -36,7 +36,7 @@ $project-white-color: #ffffff;
                 color: var(--transp-white-white-60, rgba(255, 255, 255, 0.60));
                 gap: 24px;
             }
-
+         
             button {
                 width: 393px;
                 border-radius: 48px;
@@ -193,12 +193,33 @@ $project-white-color: #ffffff;
             }
 
             .info {
-                margin-top: 10px;
+                margin-top: 10px;   
+                margin: auto;           
+
+                h1 {
+                    font: 500 46px Lexend;
+                    color: var(--main-clean-white-ffffff, $project-white-color);
+                }
+    
+                .titlecolor {
+                    color: var(--main-blue-478-bf-9, $main-blue-color);
+                }
 
                 p {
                     text-align: left;
                     font: 400 14px Lexend;
                     line-height: 20px;
+                }
+
+                button {
+                    width: 300px;
+                    border-radius: 48px;
+                    background: var(--main-blue-478-bf-9, $main-blue-color);
+                    font: 600 18px Lexend;
+                    color: var(--main-clean-white-ffffff, $project-white-color);
+                    text-align: center;
+                    padding: 20px 72px;
+                    margin-top: 48px;
                 }
             }
 
