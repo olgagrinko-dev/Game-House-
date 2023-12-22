@@ -36,7 +36,7 @@ $project-white-color: #ffffff;
                 color: var(--transp-white-white-60, rgba(255, 255, 255, 0.60));
                 gap: 24px;
             }
-         
+
             button {
                 width: 393px;
                 border-radius: 48px;
@@ -193,14 +193,14 @@ $project-white-color: #ffffff;
             }
 
             .info {
-                margin-top: 10px;   
-                margin: auto;           
+                margin-top: 10px;
+                margin: auto;
 
                 h1 {
                     font: 500 46px Lexend;
                     color: var(--main-clean-white-ffffff, $project-white-color);
                 }
-    
+
                 .titlecolor {
                     color: var(--main-blue-478-bf-9, $main-blue-color);
                 }
@@ -212,16 +212,32 @@ $project-white-color: #ffffff;
                 }
 
                 button {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 8px;
+
+
                     width: 300px;
                     border-radius: 48px;
                     background: var(--main-blue-478-bf-9, $main-blue-color);
                     font: 600 18px Lexend;
                     color: var(--main-clean-white-ffffff, $project-white-color);
-                    text-align: center;
-                    padding: 20px 72px;
+                    // text-align: center;
+                    padding: 15px 20px;
                     margin-top: 48px;
                 }
             }
+
+            // .mainimg {
+            //     background-image: url(./assets/Banner.svg);
+            //     background-repeat: no-repeat;
+            //     background-size: contain;
+            //     width: 300px;
+            //     height: 230px;
+            //     align-items: center;
+            //     animation: moveVertical 5s ease infinite;
+            // }
 
             .blog {
                 .blogOverflow {
