@@ -115,22 +115,13 @@ $project-white-color: #ffffff;
 
                     .text {
                         color: var(--main-clean-white-ffffff, #FFF);
-                        font-size: 24px;
-                        font-style: normal;
-                        font-weight: 400;
-                        line-height: 28px;
+                        font: 400 24px Lexend;                        
                     }
 
                     .date {
                         color: var(--transp-white-white-60, rgba(255, 255, 255, 0.60));
-                        font-feature-settings: 'liga' off;
-                        font-family: Futura PT;
-                        font-size: 14px;
-                        font-style: normal;
-                        font-weight: 450;
-                        line-height: 16px;
+                        font: 450 14px Futura PT;                        
                     }
-
                 }
 
                 &::-webkit-scrollbar {
@@ -194,7 +185,7 @@ $project-white-color: #ffffff;
 
             .info {
                 margin-top: 10px;
-                margin: auto;
+                // margin: auto;
 
                 h1 {
                     font: 500 46px Lexend;
@@ -215,29 +206,26 @@ $project-white-color: #ffffff;
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    gap: 8px;
-
-
                     width: 300px;
                     border-radius: 48px;
                     background: var(--main-blue-478-bf-9, $main-blue-color);
                     font: 600 18px Lexend;
                     color: var(--main-clean-white-ffffff, $project-white-color);
-                    // text-align: center;
                     padding: 15px 20px;
                     margin-top: 48px;
+                    gap: 8px;
                 }
             }
 
-            // .mainimg {
-            //     background-image: url(./assets/Banner.svg);
-            //     background-repeat: no-repeat;
-            //     background-size: contain;
-            //     width: 300px;
-            //     height: 230px;
-            //     align-items: center;
-            //     animation: moveVertical 5s ease infinite;
-            // }
+            .mainimg {
+                background-image: url(./assets/Banner.svg);
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 300px;
+                height: 1048px;
+                align-items: center;
+                transform: rotate(90deg);
+            }
 
             .blog {
                 .blogOverflow {
@@ -260,10 +248,13 @@ $project-white-color: #ffffff;
                         padding: 15px 35px;
 
                         .text {
-                            font-size: 16px;
-                            font-style: normal;
-                            font-weight: 400;
-                            line-height: 20px;
+                            color: var(--main-clean-white-ffffff, #FFF);
+                            font: 400 16px Lexend;                        
+                        }
+    
+                        .date {
+                            color: var(--transp-white-white-60, rgba(255, 255, 255, 0.60));
+                            font: 450 14px Futura PT;                        
                         }
                     }
                 }
