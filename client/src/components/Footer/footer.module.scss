@@ -91,45 +91,59 @@
 }
 
 @media screen and (max-width:300px) {
-    .footer {        
-        display: flex;       
+    @mixin image-block($defaultUrl, $hoverUrl) {
+        background-image: $defaultUrl;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 27px;
+        height: 27px;
+        object-fit: contain;
+    
+        &:hover {
+            background-image: $hoverUrl;
+        }
+    }
+
+    .footer {
+        display: flex;
         flex-direction: column;
-        justify-content: flex-end;
         align-items: flex-start;
         width: 300px;
-        padding: 20px;       
+        padding: 20px;
+        border-radius: 50px 50px 0px 0px;
         border-top: 2px solid var(--main-blue-478-bf-9, #478BF9);
         border-right: 2px solid var(--main-blue-478-bf-9, #478BF9);
         border-left: 2px solid var(--main-blue-478-bf-9, #478BF9);
-        background: var(--main-deep-blue-1-e-1231, #1E1231);
+        background: var(--main-deep-blue-1-e-1231, #1E1231);        
+        gap: 20px;
 
         .nav {
             display: flex;
-            align-items: flex-end;
-            font: 400 16px Lexend;
+            flex-direction: column;
+            align-items: flex-start;
+            font: 400 14px Lexend;
             color: var(--main-clean-white-ffffff, #FFF);
-            gap: 32px;
+            gap: 2px;
 
             p:first-child {
-                color: var(--main-blue-478-bf-9, #478BF9);
-                text-decoration: underline;
+                color: var(--main-clean-white-ffffff, #FFF);
+                text-decoration: none;
             }
         }
 
         .link {
             display: flex;
             flex-direction: column;
-            justify-content: flex-start;
-            align-items: flex-end;
-            gap: 12px;
+            align-items: flex-start;
+            gap: 8px;
 
             p {
-                font: 400 16px Lexend;
+                font: 400 14px Lexend;
                 color: var(--main-clean-white-ffffff, #FFF);
             }
 
             .images {
-                display: flex;                
+                display: flex;
                 gap: 8px;
 
                 .img1 {
