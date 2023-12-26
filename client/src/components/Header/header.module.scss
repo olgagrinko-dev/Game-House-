@@ -48,12 +48,12 @@
     }
 }
 
-@media screen and (max-width:300px) {
+@media screen and (max-width:300px) {  
     .header {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 300px;
+        max-width: 100%;
         padding: 10px 14px;
         border-radius: 64px;
         border: 2px solid var(--main-blue-478-bf-9, #478BF9);

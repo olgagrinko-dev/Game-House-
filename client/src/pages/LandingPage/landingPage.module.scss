@@ -115,12 +115,12 @@ $project-white-color: #ffffff;
 
                     .text {
                         color: var(--main-clean-white-ffffff, #FFF);
-                        font: 400 24px Lexend;                        
+                        font: 400 24px Lexend;
                     }
 
                     .date {
                         color: var(--transp-white-white-60, rgba(255, 255, 255, 0.60));
-                        font: 450 14px Futura PT;                        
+                        font: 450 14px Futura PT;
                     }
                 }
 
@@ -163,29 +163,15 @@ $project-white-color: #ffffff;
             flex-direction: column;
             justify-content: flex-end;
             align-items: flex-start;
-
-            width: 100%;
             margin: auto;
-            padding: 20px;
-            gap: 15px;
-
-            border-radius: 50px 50px 0px 0px;
-            border-top: 2px solid var(--main-blue-478-bf-9, #478BF9);
-            border-right: 2px solid var(--main-blue-478-bf-9, #478BF9);
-            border-left: 2px solid var(--main-blue-478-bf-9, #478BF9);
             background: var(--main-deep-blue-1-e-1231, #1E1231);
-
-            .nav {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: flex-start;
-                gap: 2px;
-            }
+            padding: 70px 10px;
 
             .info {
-                margin-top: 10px;
-                // margin: auto;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                margin: auto;
 
                 h1 {
                     font: 500 46px Lexend;
@@ -202,32 +188,21 @@ $project-white-color: #ffffff;
                     line-height: 20px;
                 }
 
-                button {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    width: 300px;
-                    border-radius: 48px;
+                button {                   
+                    width: 300px;                  
                     background: var(--main-blue-478-bf-9, $main-blue-color);
                     font: 600 18px Lexend;
                     color: var(--main-clean-white-ffffff, $project-white-color);
-                    padding: 15px 20px;
-                    margin-top: 48px;
-                    gap: 8px;
+                    padding: 15px 20px;                   
                 }
             }
 
             .mainimg {
-                background-image: url(./assets/Banner.svg);
-                background-repeat: no-repeat;
-                background-size: contain;
-                width: 300px;
-                height: 1048px;
-                align-items: center;
                 transform: rotate(90deg);
             }
 
             .blog {
+              
                 .blogOverflow {
                     padding: 12px 0 12px 12px;
                     border-radius: 50px;
@@ -249,12 +224,12 @@ $project-white-color: #ffffff;
 
                         .text {
                             color: var(--main-clean-white-ffffff, #FFF);
-                            font: 400 16px Lexend;                        
+                            font: 400 16px Lexend;
                         }
-    
+
                         .date {
                             color: var(--transp-white-white-60, rgba(255, 255, 255, 0.60));
-                            font: 450 14px Futura PT;                        
+                            font: 450 14px Futura PT;
                         }
                     }
                 }
