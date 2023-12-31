@@ -170,7 +170,6 @@ $project-white-color: #ffffff;
             .info {
                 display: flex;
                 flex-direction: column;
-                align-items: flex-start;
                 margin: auto;
 
                 h1 {
@@ -183,26 +182,25 @@ $project-white-color: #ffffff;
                 }
 
                 p {
-                    text-align: left;
                     font: 400 14px Lexend;
                     line-height: 20px;
                 }
 
-                button {                   
-                    width: 300px;                  
-                    background: var(--main-blue-478-bf-9, $main-blue-color);
+                button {
+                    width: 285px;
                     font: 600 18px Lexend;
-                    color: var(--main-clean-white-ffffff, $project-white-color);
-                    padding: 15px 20px;                   
+                    padding: 15px 20px;
                 }
             }
 
             .mainimg {
-                transform: rotate(90deg);
+                height: 300px;
+                transform: rotate(90deg);         
+                margin-top: 50px;               
             }
 
             .blog {
-              
+
                 .blogOverflow {
                     padding: 12px 0 12px 12px;
                     border-radius: 50px;
