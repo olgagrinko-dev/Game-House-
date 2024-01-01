@@ -98,7 +98,7 @@
         width: 27px;
         height: 27px;
         object-fit: contain;
-    
+
         &:hover {
             background-image: $hoverUrl;
         }
@@ -114,7 +114,7 @@
         border-top: 2px solid var(--main-blue-478-bf-9, #478BF9);
         border-right: 2px solid var(--main-blue-478-bf-9, #478BF9);
         border-left: 2px solid var(--main-blue-478-bf-9, #478BF9);
-        background: var(--main-deep-blue-1-e-1231, #1E1231);        
+        background: var(--main-deep-blue-1-e-1231, #1E1231);
         gap: 20px;
 
         .nav {
