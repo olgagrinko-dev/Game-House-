@@ -90,7 +90,7 @@
     }
 }
 
-@media screen and (max-width:300px) {
+@media screen and (max-width:300px) {    
     @mixin image-block($defaultUrl, $hoverUrl) {
         background-image: $defaultUrl;
         background-repeat: no-repeat;
