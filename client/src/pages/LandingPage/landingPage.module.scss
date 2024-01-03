@@ -55,7 +55,14 @@ $project-white-color: #ffffff;
             width: 334px;
             height: 1048px;
             align-items: center;
-            animation: moveVertical 5s ease infinite;
+            // animation-iteration-count: 2;
+            // animation-direction: reverse;
+            #axis:hover .move-up {
+                transform: translate(0,-350px);
+                -webkit-transform: translate(0,-350px);
+                -o-transform: translate(0,-350px);
+                -moz-transform: translate(0,-350px);
+            }
         }
 
         .blog {
@@ -193,7 +200,9 @@ $project-white-color: #ffffff;
             }
 
             .mainimg {
+                background-size: cover;
                 height: 300px;
+                width: 100%;
                 transform: rotate(90deg);
                 margin-top: 50px;
             }
