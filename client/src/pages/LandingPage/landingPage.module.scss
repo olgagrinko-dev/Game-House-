@@ -4,7 +4,7 @@ $project-white-color: #ffffff;
 .backgroundImg {
     background-image: url(./assets/MainWrapper.svg);
     background-size: cover;
-    width: 1920px;    
+    width: 1920px;
     margin: auto;
     padding-top: 4px;
 
@@ -55,14 +55,30 @@ $project-white-color: #ffffff;
             width: 334px;
             height: 1048px;
             align-items: center;
-            // animation-iteration-count: 2;
-            // animation-direction: reverse;
-            #axis:hover .move-up {
-                transform: translate(0,-350px);
-                -webkit-transform: translate(0,-350px);
-                -o-transform: translate(0,-350px);
-                -moz-transform: translate(0,-350px);
-            }
+
+            // animation: 1s linear 0s normal none infinite running rot;
+            // -webkit-animation: 1s linear 0s normal none infinite running rot;
+            // width: 100px;
+
+            // @keyframes rot {
+            //     0% {
+            //         transform: rotate(0deg);
+            //     }
+
+            //     100% {
+            //         transform: rotate(360deg);
+            //     }
+            // }
+
+            // @-webkit-keyframes rot {
+            //     0% {
+            //         transform: rotate(0deg);
+            //     }
+
+            //     100% {
+            //         transform: rotate(360deg);
+            //     }
+            // }
         }
 
         .blog {
